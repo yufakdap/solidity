@@ -12,3 +12,14 @@ contract ifElse{
         }
     }
 }
+
+//or
+// SPDX-License-Identifier: UNLICENSED \
+pragma solidity ^0.8.0;
+
+contract ifElse{
+    function example (uint _x) external pure returns (uint){
+        return _x<10 ? 1:2; //ternary operator 
+       
+    }
+}
