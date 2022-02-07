@@ -6,7 +6,7 @@ contract globalVariables{
         address sender= msg.sender;
         uint timeStamp= block.timestamp;
         uint blocknum= block.number;
-       // return (sender,timeStamp,blocknum);
+        return (sender,timeStamp,blocknum);
 
     }
 }
